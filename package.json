@@ -4,6 +4,7 @@
   "description": "Primer proyecto con nodeJS",
   "main": "index.html",
   "scripts": {
+	"dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,8 @@
   },
   "author": "Daniel Delgado",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/Dan2106/guia-hoteles#readme"
+  "homepage": "https://bitbucket.org/Dan2106/guia-hoteles#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
