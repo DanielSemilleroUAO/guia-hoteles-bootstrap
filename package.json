@@ -1,0 +1,16 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Primer proyecto con nodeJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Dan2106@bitbucket.org/Dan2106/guia-hoteles.git"
+  },
+  "author": "Daniel Delgado",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Dan2106/guia-hoteles#readme"
+}
