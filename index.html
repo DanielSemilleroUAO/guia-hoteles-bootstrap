@@ -188,7 +188,10 @@
 					<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las unica ciudad con tren en Colombia">Medellin</h5>
 					<h6 class="card-subtitle text-muted">Colombia</h6>
 					<p class="card-text">Hotel ubicado en Colombia, zona tour.</p>
-					<button class="btn btn-success" data-toggle="modal" data-target="#contacto"><span class="oi oi-plus btn-reserva-icon"></span>Contacto</button>
+					<button class="btn btn-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">
+						<span class="oi oi-plus btn-reserva-icon"></span>
+						Contacto
+					</button>
 				</div>
 				<div>
 					<button class="btn btn-primary btn-reserva" type="button" data-toggle="popover" title="Promociones" data-content="Información de promociones">
@@ -263,12 +266,30 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script>
-		$(
-			function(){
+		$(function(){
+		
 				$("[data-toggle='tooltip']").tooltip();
-				$('[data-toggle="popover"]').popover();
+				$("[data-toggle='popover']").popover();
 				$('.carousel').carousel({
-					interval= 1000
+					interval: 2000
+				});
+				
+				$('#contacto').on('show.bs.modal', function(e){
+					console.log('El modal se esta mostrando');
+					$('#contactoBtn').removeClass('btn-success');
+					$('#contactoBtn').prop('disabled', true);
+				});
+				$('#contacto').on('shown.bs.modal', function(e){
+					console.log('El modal se oculto');
+				});
+				$('#contacto').on('hide.bs.modal', function(e){
+					console.log('El modal se oculto');
+				});
+				$('#contacto').on('hidden.bs.modal', function(e){
+					console.log('El modal se termino de ocultar');
+					
+					$('#contactoBtn').addClass('btn-success');
+					$('#contactoBtn').prop('disabled', false);
 				});
 			});
 	</script>
