@@ -1,0 +1,50 @@
+@black: #000000;
+@blue: #054FF0;
+
+.margenes(@top:0px,@bottom:0px){
+	margin-top: @top;
+	margin-bottom: @bottom;
+}
+
+.jumbotron {
+	background-image: url(/images/fondo.jpg);
+	background-size: cover;
+	background-color: @black;
+	color: @black;
+	.margenes(50px,0px)
+}
+
+.btn {
+	background-color: @blue;
+}
+
+footer {
+
+	padding: 10px 10px 0 10px;
+	background-color: @black;
+	width: 100%;
+	color: white;
+	.margenes(10px,0px)
+}
+
+.card-hotel {
+	flex: 1 200px;
+	.margenes(10px,0px)
+}
+
+.btn-reserva {
+	width: 100%;
+	border-radius: 0px;
+}
+
+.footer-address-icon{
+	padding-right: 10px;
+}
+
+.btn-reserva-icon {
+	padding-right: 10px;
+}
+
+.tab-content {
+	padding-top: 10px;
+}
