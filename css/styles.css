@@ -1,16 +1,16 @@
 .jumbotron {
   background-image: url(/images/fondo.jpg);
   background-size: cover;
-  background-color: #000000;
-  color: #000000;
+  background-color: #FFFFFF;
+  color: #FFFFFF;
   margin-top: 50px; }
 
 .btn {
-  background-color: #054FF0; }
+  background-color: #054 sF0; }
 
 footer {
   padding: 10px 10px 0 10px;
-  background-color: #000000;
+  background-color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
