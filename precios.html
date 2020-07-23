@@ -49,75 +49,115 @@
 				<li class="breadcrumb-item active" aria-current="page">Precios</li>
 			</ol>
 		</nav>
-		<div class="table-responsive">
-			<table class="table">
-				<thead class="thead-dark">
-					<th>Calidad</th>
-					<th>Bogotá</th>
-					<th>Medellin</th>
-					<th>Cali</th>
-					<th>Barranquilla</th>
-					
-					<tbody>
-						<tr>
-							<td>
-								<span class="oi oi-star"></span>
-							</td>
-							<td>$100.000</td>
-							<td>$200.000</td>
-							<td>$300.000</td>
-							<td>$400.000</td>
-						</tr>
-						<tr>
-							<td>
-								<span class="oi oi-star"></span>
-								<span class="oi oi-star"></span>
-							</td>
-							<td>$1'000.000</td>
-							<td>$2'000.000</td>
-							<td>$3'000.000</td>
-							<td>$4'000.000</td>
-						</tr>
-						<tr>
-							<td>
-								<span class="oi oi-star"></span>
-								<span class="oi oi-star"></span>
-								<span class="oi oi-star"></span>
-							</td>
-							<td>$10'000.000</td>
-							<td>$20'000.000</td>
-							<td>$30'000.000</td>
-							<td>$40'000.000</td>
-						</tr>
-						<tr>
-							<td>
-								<span class="oi oi-star"></span>
-								<span class="oi oi-star"></span>
-								<span class="oi oi-star"></span>
-								<span class="oi oi-star"></span>
-							</td>
-							<td>$100'000.000</td>
-							<td>$200'000.000</td>
-							<td>$300'000.000</td>
-							<td>$400'000.000</td>
-						</tr>
-						<tr>
-							<td>
-								<span class="oi oi-star"></span>
-								<span class="oi oi-star"></span>
-								<span class="oi oi-star"></span>
-								<span class="oi oi-star"></span>
-								<span class="oi oi-star"></span>
-							</td>
-							<td>$1.000.0000.000</td>
-							<td>$2.000.000.000</td>
-							<td>$3.000.000.000</td>
-							<td>$4.000.000.000</td>
-						</tr>
-					</tbody>
-				</thead>
-			</table>
+		
+		<ul class="nav nav-tabs" id="myTab" role="tablist">	
+			<li class="nav-item">
+				<a class="nav-link active" id="compara-tab" data-toggle="tab" href="#compara" role="tab" aria-controls="compara" aria-selected="true">Compara</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link " id="compara-tab" data-toggle="tab" href="#tarjeta" role="tab" aria-controls="compara" aria-selected="false">Tarjeta</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link " id="compara-tab" data-toggle="tab" href="#comentarios" role="tab" aria-controls="compara" aria-selected="false">Comentarios</a>
+			</li>
+		</ul>
+		
+		<div class="tab-content" id="myTavContent">
+			<div class="tab-pane fade show active" id="compara" role="tabpanel" arial-labelledby="compara-tab">
+				<div class="table-responsive">
+					<table class="table">
+						<thead class="thead-dark">
+							<th>Calidad</th>
+							<th>Bogotá</th>
+							<th>Medellin</th>
+							<th>Cali</th>
+							<th>Barranquilla</th>
+							
+							<tbody>
+								<tr>
+									<td>
+										<span class="oi oi-star"></span>
+									</td>
+									<td>$100.000</td>
+									<td>$200.000</td>
+									<td>$300.000</td>
+									<td>$400.000</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="oi oi-star"></span>
+										<span class="oi oi-star"></span>
+									</td>
+									<td>$1'000.000</td>
+									<td>$2'000.000</td>
+									<td>$3'000.000</td>
+									<td>$4'000.000</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="oi oi-star"></span>
+										<span class="oi oi-star"></span>
+										<span class="oi oi-star"></span>
+									</td>
+									<td>$10'000.000</td>
+									<td>$20'000.000</td>
+									<td>$30'000.000</td>
+									<td>$40'000.000</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="oi oi-star"></span>
+										<span class="oi oi-star"></span>
+										<span class="oi oi-star"></span>
+										<span class="oi oi-star"></span>
+									</td>
+									<td>$100'000.000</td>
+									<td>$200'000.000</td>
+									<td>$300'000.000</td>
+									<td>$400'000.000</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="oi oi-star"></span>
+										<span class="oi oi-star"></span>
+										<span class="oi oi-star"></span>
+										<span class="oi oi-star"></span>
+										<span class="oi oi-star"></span>
+									</td>
+									<td>$1.000.0000.000</td>
+									<td>$2.000.000.000</td>
+									<td>$3.000.000.000</td>
+									<td>$4.000.000.000</td>
+								</tr>
+							</tbody>
+						</thead>
+					</table>
+				</div>
+			</div>
+			
+			<div class="tab-pane fade" id="tarjeta" role="tabpanel" arial-labelledby="tarjetas-tab">
+				<div class="d-flex justify-content-center">
+					<div class="card" style="">
+						<div class="card-header">
+							Tarjetas aceptadas
+						</div>
+						<ul class="list-group list-group-flush" >
+							<li class="list-group-item">Tarjeta básica <span class="oi oi-star"></span></li>
+							<li class="list-group-item">Tarjeta VIP <span class="oi oi-star"></span><span class="oi oi-star"></span></li>
+							<li class="list-group-item">Tarjeta Gold <span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="tab-pane fade" id="comentarios" role="tabpanel" arial-labelledby="comentarios-tab">
+				Comentarios
+			</div>
+			
 		</div>
+		
+	
+		
 		
 	</div>
 	
