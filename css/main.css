@@ -1,5 +1,7 @@
 .jumbotron {
-	background-color: yellow;
+	background-image: url(/images/fondo.jpg);
+	background-size: cover;
+	background-color: black;
 	color: black;
 	margin-top: 50px;
 }
@@ -9,10 +11,12 @@
 }
 
 footer {
+
 	padding: 10px 10px 0 10px;
-	background-color: yellow;
+	background-color: black;
 	margin-top: 10px;
 	width: 100%;
+	color: white;
 }
 
 .card-hotel {
