@@ -1,8 +1,8 @@
 .jumbotron {
   background-image: url(/images/fondo.jpg);
   background-size: cover;
-  background-color: #000000;
-  color: #000000;
+  background-color: #FFFFFF;
+  color: #FFFFFF;
   margin-top: 50px;
   margin-bottom: 0px;
 }
@@ -11,9 +11,9 @@
 }
 footer {
   padding: 10px 10px 0 10px;
-  background-color: #000000;
+  background-color: #FFFFFF;
   width: 100%;
-  color: white;
+  color: #000000;
   margin-top: 10px;
   margin-bottom: 0px;
 }

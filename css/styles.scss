@@ -1,5 +1,6 @@
-$black: #FFFFFF;
+$black: #000000;
 $blue: #054sF0;
+$white: #FFFFFF;
 
 
 @mixin margenes($top, $bottom){
@@ -20,12 +21,11 @@ $blue: #054sF0;
 }
 
 footer {
-
 	padding: 10px 10px 0 10px;
 	background-color: $black;
 	@include margenes(10px,10px)
 	width: 100%;
-	color: white;
+	color: $white;
 }
 
 .card-hotel {
